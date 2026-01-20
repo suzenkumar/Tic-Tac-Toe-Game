@@ -1,16 +1,17 @@
 # 🎮 Tic-Tac-Toe Game
 
-
 ## 📸 Screenshots
 
-
+![Tic-Tac-Toe Game Screenshot](https://github.com/suzenkumar/Tic-Tac-Toe-Game/blob/main/Screenshot%202026-01-20%20191344.png)
 
 ---
+
 
 A simple and interactive **Tic-Tac-Toe (X & O)** game built using **HTML, CSS, and JavaScript**.
 This project demonstrates core web development concepts such as DOM manipulation, event handling, and game logic.
 
 ---
+
 
 ## 📌 Features
 
@@ -58,13 +59,12 @@ tic-tac-toe/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   git clone https://github.com/suzenkumar/Tic-Tac-Toe-Game.git
    ```
 2. Open `index.html` in your browser
 3. Enjoy the game 🎉
 
 ---
-
 
 ## 🌟 Future Enhancements
 
