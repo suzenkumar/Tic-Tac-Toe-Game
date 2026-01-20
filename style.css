@@ -1,0 +1,126 @@
+
+          :root {
+  --bg: #0b0b1a;
+  --box: #15152b;
+  --x: #f6413b;
+  --o: #a855f7;
+  --border: #1f1f3d;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #000000, #000000);
+  color: green;
+}
+
+/* GAME CARD */
+.game {
+  text-align: center;
+  background: #0a0f14;
+  padding: 24px 28px 28px;
+  border-radius: 18px;
+  box-shadow: 0 20px 90px rgba(3, 217, 92, 0.4);
+  width: 320px;
+}
+
+/* HEADER */
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* CHOOSE PLAYER */
+.choose span {
+  opacity: 0.7;
+}
+
+.choose button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: var(--box);
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choose button.active {
+  background: var(--x);
+  box-shadow: 0 0 12px var(--x);
+}
+
+/* RESET BUTTON */
+#restart {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+/* TITLE */
+h1 {
+  margin-bottom: 18px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 12px rgba(21, 147, 57, 0.7);
+}
+
+/* BOARD */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0;
+}
+
+/* CELL */
+.cell {
+  width: 86px;
+  height: 86px;
+  background: #151a20;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cell:hover {
+  background: #4e945ad5;
+}
+
+/* X & O COLORS */
+.cell.x {
+  color: var(--x);
+  text-shadow: 0 0 10px var(--x);
+}
+
+.cell.o {
+  color: var(--o);
+  text-shadow: 0 0 10px var(--o);
+}
+
+/* STATUS */
+.status {
+  margin-top: 15px;
+  opacity: 0.7;
+}
